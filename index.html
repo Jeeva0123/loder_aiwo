@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CodePen - Rotating globe with SVG and D3.js</title>
+    <title>loder</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript">
@@ -11,24 +11,7 @@
         $('#loading').addClass('hidden');
     }, 2000);
 
-    var currentZoom = 1.0;
-
-    $(document).ready(function() {
-        $('#btn_ZoomIn').click(
-            function() {
-                $('#divName').animate({ 'zoom': currentZoom += .1 }, 'slow');
-            })
-        $('#btn_ZoomOut').click(
-            function() {
-                $('#divName').animate({ 'zoom': currentZoom -= .1 }, 'slow');
-            })
-        $('#btn_ZoomReset').click(
-            function() {
-                currentZoom = 1.0
-                $('#divName').animate({ 'zoom': 1 }, 'slow');
-            })
-    });
-    </script>
+     </script>
     <style type="text/css">
     #loading {
         position: fixed;
@@ -48,23 +31,6 @@
         visibility: hidden;
 
     }
-
-   /* .wrapper {
-        
-        animation: move 3s  ease-in;
-    }
-
-    @keyframes move {
-        0% {
-            transform: scale(1) rotate(0deg);
-        }
-
-        100% {
-            transform: scale(2) rotate(0.1deg);
-
-        }
-
-    }*/
     </style>
 </head>
 
@@ -83,12 +49,9 @@
                     </div>
                 </div>
             </section>
-            <div style="display:none;" id="myDiv" class="animate-bottom">
-                <h2>Tada!</h2>
-                <p>Some text in my newly loaded page..</p>
-            </div>
         </div>
     </div>
+    <!-- main page -->
     <div id="site">
         <h1>My site</h1>
         <p>Lorem ipsum</p>
