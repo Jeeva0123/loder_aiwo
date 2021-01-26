@@ -1,0 +1,308 @@
+.coll{
+}
+.java{
+    width: 35px;
+}
+.container{
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.logo{
+    width: 250px;
+}
+.coll {
+
+    box-shadow: 45px;
+}
+
+.b-right {
+    border-right: 2px solid black;
+}
+
+.dev {
+    line-height: 15px;
+}
+
+.in {
+    display: inline;
+
+}
+
+.inone {
+    padding-bottom: 12px;
+
+}
+
+.interest {
+
+    text-align: center;
+}
+
+.insize {
+    width: 20%;
+    height: 20%;
+}
+
+.skills {
+    margin-top: 16px;
+}
+
+.outone {
+    letter-spacing: 80px;
+    margin-left: 129px;
+    padding: 5px;
+}
+
+.outsize {
+    width: 10%;
+}
+
+.footer {
+    display: block;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.footer>div {
+
+
+    font-size: 30px;
+
+    width: 49%;
+
+    display: inline-table;
+}
+
+.contact {
+    font-size: 16px;
+    text-align: center;
+}
+
+.sideline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.sideline:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 1 0 20px 0 0;
+    flex: 1 0 20px;
+
+}
+
+.down {
+    display: inline;
+}
+
+.fa-graduation-cap,
+.fa-briefcase,
+.fa-trophy,
+.fa-code-fork {
+
+    font-size: 40px;
+
+
+}
+
+.eduout {
+
+    z-index: 1;
+    margin-left: -41px;
+    margin-top: 7px;
+
+}
+
+.eduin {
+    line-height: 5px;
+    margin-left: -85px;
+    margin-top: 45px;
+
+}
+
+.bar {
+    padding-top: 10px;
+}
+
+.barlable {
+    font-size: 20px;
+}
+
+.gulp {
+    width: 30px;
+}
+
+.tamil {
+
+
+    border-radius: 50%;
+
+    border: 1px solid black;
+
+    width: 15%;
+    margin-left: 150px;
+
+    margin-bottom: 10px;
+
+
+    padding: 0px;
+}
+
+.cpp {
+    width: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+.interest{
+    margin-bottom: 25px;
+}
+    .profile{
+        margin-top: 15px;
+    margin-bottom: 35px;
+    }
+    .skills {
+
+        margin-top: 16px;
+
+    }
+
+
+
+    .insize {
+        width: 30%;
+
+
+    }
+
+    .outsize {
+        width: 20%;
+    }
+
+    .summary {
+        font-size: 10px;
+    }
+
+    .contact {
+
+        font-size: 10px;
+
+    }
+
+    .outone {
+
+        padding-bottom: 15px;
+        letter-spacing: 10px;
+        margin-left: -10px;
+
+    }
+
+    .fa-graduation-cap,
+    .fa-briefcase,
+    .fa-trophy,
+    .fa-code-fork {
+
+        margin-left: -5px;
+
+        font-size: 25px;
+    }
+
+    .eduout {
+
+        z-index: 1;
+        margin-left: 4px;
+        margin-top: 0px;
+
+    }
+
+    .eduin {
+
+        line-height: 5px;
+
+        margin-left: -88px;
+
+        margin-top: 33px;
+
+        font-size: 10px;
+
+        margin-right: -10px;
+
+    }
+
+    .sideline {
+        font-size: 16px;
+        margin-left: -10px;
+    }
+
+    .bar {
+        padding-top: 10px;
+    }
+
+    .barlable {
+        font-size: 20px;
+    }
+
+    .gulp {
+        width: 20px;
+    }
+
+    .tamil {
+
+
+        border-radius: 50%;
+
+        border: 1px solid black;
+
+        width: 35%;
+        margin-left: 50px;
+
+        margin-bottom: 10px;
+
+
+        padding: 0px;
+    }
+
+    .cpp {
+        width: 40px;
+    }
+}
+
+/*@media only screen and (max-width: 768px) {
+    .fa-graduation-cap {
+
+        font-size: 28px;
+        border-radius: 50%;
+        margin-left: -5px;
+        font-size: 28px;
+        margin-top: 6px;
+
+    }
+
+    .eduout {
+
+        z-index: 1;
+
+        margin-left: -20px;
+
+        margin-top: 8px;
+
+    }
+
+    .eduin {
+
+        line-height: 5px;
+
+        margin-left: -88px;
+
+        margin-top: 33px;
+
+        font-size: 10px;
+
+        margin-right: -10px;
+
+
+    }
+}*/
