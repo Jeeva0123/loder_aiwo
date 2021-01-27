@@ -1,7 +1,7 @@
 body {
     background: black;
     text-align: center;
-    margin-top: 20px;
+/*    margin-top: 20px;*/
 }
 
 #worldmap {
@@ -50,14 +50,14 @@ body {
 
 #globesarecool {
     position: relative;
-    top: 30px;
-    left: 10px;
+    top: 74px;
+    left: -38px;
     z-index: 1;
     color: black;
 }
 
 #globesarecool .imgg {
-    width: 80%;
+    width: 140%;
     position: relative;
     top: 45px;
 
